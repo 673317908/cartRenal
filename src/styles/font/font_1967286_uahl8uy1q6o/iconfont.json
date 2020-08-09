@@ -1,0 +1,44 @@
+{
+  "id": "1967286",
+  "name": "cartWbe",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "152423",
+      "name": "问号",
+      "font_class": "qm",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "1127367",
+      "name": "用户",
+      "font_class": "user",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "6282769",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "9474543",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "16148388",
+      "name": "用户",
+      "font_class": "user-copy",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    }
+  ]
+}
