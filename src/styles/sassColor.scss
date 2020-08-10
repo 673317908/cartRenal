@@ -7,3 +7,11 @@ $color_main: #34393f;
   -ms#{$type}: $value;
   #{$type}: $value;
 }
+
+@mixin webkitA($type, $value) {
+  #{$type}: -webkit-#{$value};
+  #{$type}: -o-#{$value};
+  #{$type}: -moz-#{$value};
+  #{$type}: -ms-#{$value};
+  #{$type}: $value;
+}

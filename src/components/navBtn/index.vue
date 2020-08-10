@@ -1,33 +1,37 @@
 <template>
-    <div id="navBtn">
-      <ul>
-        <li><i class="iconfont icon-qm"></i></li>
-        <li><i class="iconfont icon-sousuo"></i></li>
-        <li>
-          <a href="javascript">选择车辆</a>
-        </li>
-        <li><i class="iconfont icon-dingwei"></i></li>
-        <li><i class="iconfont icon-user"></i></li>
-      </ul>
-    </div>
+  <div id="navBtn">
+    <ul>
+      <li>
+        <i class="iconfont icon-qm"></i>
+      </li>
+      <li>
+        <i class="iconfont icon-sousuo"></i>
+      </li>
+      <li>
+        <a href="javascript">选择车辆</a>
+      </li>
+      <li>
+        <i class="iconfont icon-dingwei"></i>
+      </li>
+      <li @click="activeUser({name:'User'})">
+        <i class="iconfont icon-user"></i>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-
-        };
-    },
-    created() {
-
-    },
-    mounted() {
-
-    },
-    methods: {
-
+  data() {
+    return {};
+  },
+  created() {},
+  mounted() {},
+  methods: {
+    activeUser(route) {
+      this.$router.push(route);
     }
+  }
 };
 </script>
 

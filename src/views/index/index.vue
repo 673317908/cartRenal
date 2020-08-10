@@ -28,6 +28,7 @@ export default {
   },
   computed: {
     show() {
+      console.log(this.$route)
       const router = this.$route;
       return router.name === "Index" ? false : true;
     }
