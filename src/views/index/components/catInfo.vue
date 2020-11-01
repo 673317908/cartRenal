@@ -3,7 +3,7 @@
     <div class="card_box">
       <swiper ref="mySwiper" :options="swiperOption">
         <swiper-slide>
-          <cartItem />
+          <cartItem height="820px" />
         </swiper-slide>
         <swiper-slide>
           <cartItem />
@@ -54,6 +54,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.swiper-container {
+  overflow: initial;
+}
 .cartInfo {
   position: fixed;
   bottom: 94px;

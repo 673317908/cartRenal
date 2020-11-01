@@ -1,11 +1,11 @@
 @import "./reset.scss";
 @import "./sassColor.scss";
+@import "./ui.scss";
 
 
 i[class^=iconfont] {
   display: inline-block;
-  width:44px;
-  height: 44px;
+  width: 44px;
   border-radius: 50%;
   background-color: $color_main;
   text-align: center;

@@ -9,11 +9,21 @@ const routes = [
     path: "/",
     name: "Index",
     component: Index,
-    children:[
+    children: [
       {
-        path:'/user',
-        name:'User',
-        component:() => import ('../views/user/index')
+        path: '/user',
+        name: 'User',
+        component: () => import('../views/user/index')
+      },
+      {
+        path: '/security',
+        name: 'Security',
+        component: () => import('../views/security/index')
+      },
+      {
+        path: '/password',
+        name: 'Password',
+        component: () => import('../views/security/password')
       }
     ]
   }

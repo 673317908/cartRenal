@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "16582373",
+      "name": "认证",
+      "font_class": "renzheng-copy",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "16582375",
+      "name": "安全",
+      "font_class": "anquanzhuye-copy",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "16582376",
+      "name": "方向盘",
+      "font_class": "fangxiangpan-copy",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "16582377",
+      "name": "帮助",
+      "font_class": "bangzhu-copy",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "16582379",
+      "name": "钱",
+      "font_class": "50-copy",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
       "icon_id": "152423",
       "name": "问号",
       "font_class": "qm",
